@@ -1,7 +1,0 @@
-{
-    "java.configuration.updateBuildConfiguration": "interactive",
-    "code-runner.executorMap": {
-        "java": "mvn -f \"$workspaceRoot\\pom.xml\" compile exec:java -Dexec.mainClass=com.cartonapp.Main"
-    },
-    "code-runner.ignoreSelection": true
-}
