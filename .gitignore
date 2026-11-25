@@ -1,0 +1,9 @@
+target/
+db.properties
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+nbproject/private/
+build/

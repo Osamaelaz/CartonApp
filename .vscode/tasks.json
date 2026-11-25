@@ -1,0 +1,26 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Carton Accounting",
+            "type": "shell",
+            "command": "mvn",
+            "args": [
+                "compile",
+                "exec:java",
+                "-Dexec.mainClass=com.cartonapp.Main"
+            ],
+            "group": "build",
+            "problemMatcher": ["$javac"],
+            "presentation": { "reveal": "always", "panel": "dedicated" }
+        },
+        {
+            "label": "Verify Carton Accounting",
+            "type": "shell",
+            "command": "mvn",
+            "args": ["clean", "package", "-Dexec.skip=true"],
+            "group": "test",
+            "problemMatcher": ["$javac"]
+        }
+    ]
+}

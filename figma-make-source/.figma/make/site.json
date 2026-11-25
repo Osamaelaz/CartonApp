@@ -1,0 +1,10 @@
+{
+  "description": "Manage customer accounts, carton products, invoices, receipts, and statements in one Arabic accounting app for accountants at corrugated carton factories.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

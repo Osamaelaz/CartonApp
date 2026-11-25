@@ -1,0 +1,4 @@
+ALTER TABLE customers DROP COLUMN IF EXISTS tax_number;
+ALTER TABLE customers DROP COLUMN IF EXISTS payment_days;
+ALTER TABLE customers DROP COLUMN IF EXISTS tax_exempt;
+ALTER TABLE customers DROP COLUMN IF EXISTS active;
